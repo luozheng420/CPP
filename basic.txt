@@ -51,6 +51,10 @@ override 表示该函数为重写的函数
 explicit 表示禁止显式构造
 virtual
 nullptr
+dynamic_cast 用于类指针或类引用的向上转换或向下转换，转换成功则返回对应的指针，如果失败则返回null
+static_cast 类似于强制类型转换，不是安全的
+const_cast 去除const属性
+reinterpret_cast 指针之间的强制转换
 
 类
 |重载
