@@ -6,12 +6,15 @@
 |布尔型 bool
 |数组 xxx[]
 |指针 xxx*
+|枚举 enum
+|结构体 struct
+|联合体 union
 
 运算符
-|算术运算符 +-*/%
+|算术运算符 +-*/% ++ --
 |比较运算符 > < == != >= <=
 |逻辑运算符 && || ！
-|位运算符 & | ~ ^
+|位运算符 & | ~ ^ << >>
 
 函数
 |普通函数
@@ -20,7 +23,7 @@
 |析构函数 与构造函数的执行顺序互为镜像关系
 |复制构造函数 xxx(const xxx& rhs)
 |移动构造函数 xxx(const xxx&& rhs)
-|赋值运算符 xxx& xxx(const xxx& rhs)
+|赋值运算符 xxx& operater=(const xxx& rhs)
 |静态成员函数 只能访问静态成员变量，不能访问普通成员变量。
 |友元函数 
 |模板函数
@@ -55,6 +58,7 @@ dynamic_cast 用于类指针或类引用的向上转换或向下转换，转换�
 static_cast 类似于强制类型转换，不是安全的
 const_cast 去除const属性
 reinterpret_cast 指针之间的强制转换
+thread_local 定义线程生命周期内的变量
 
 类
 |重载
@@ -66,8 +70,3 @@ reinterpret_cast 指针之间的强制转换
 模板
 全特化
 偏特化
-
-
-
-
-
