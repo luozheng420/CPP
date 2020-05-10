@@ -29,6 +29,7 @@
 |模板函数
 |内联函数
 |仿函数 实现operator运算符的类
+|std::function
 
 关键字
 #define 注意参数加括号
@@ -59,6 +60,8 @@ static_cast 类似于强制类型转换，不是安全的
 const_cast 去除const属性
 reinterpret_cast 指针之间的强制转换
 thread_local 定义线程生命周期内的变量
+std::chrono
+std::placeholders
 
 类
 |重载
