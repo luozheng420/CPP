@@ -30,6 +30,7 @@
 |内联函数
 |仿函数 实现operator运算符的类
 |std::function
+|std::bind
 
 关键字
 #define 注意参数加括号
